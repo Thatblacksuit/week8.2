@@ -22,7 +22,7 @@ function getPosition() {
     var locationOptions = { 
 	maximumAge: 10000, 
 	timeout: 6000, 
-	enableHighAccuracy: true 
+	enableHighAccuracy: true
 };
 
 }
@@ -30,7 +30,6 @@ function getPosition() {
 function clearPosition(){
     navigator.geolocation.clearWatch(watchID);
 }
-
 
 //called when the position is successfully determined
 function Success(position) {
